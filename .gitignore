@@ -1,0 +1,49 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/.gitignore
+/src/main/resources/application.properties
+/src/main/java/ru/titaev/crudspringboot/CrudSpringBootApplication.java
+/src/test/java/ru/titaev/crudspringboot/CrudSpringBootApplicationTests.java
+/hs_err_pid12704.log
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+/mvnw
+/mvnw.cmd
+/.jpb/persistence-units.xml
+/pom.xml
+/src/main/java/ru/titaev/crudspringboot/controllers/UserController.java
+/src/main/java/ru/titaev/crudspringboot/dao/UserDAO.java
+/src/main/java/ru/titaev/crudspringboot/repositories/UserRepository.java
+/src/main/resources/templates/users/users.html
+/src/main/java/ru/titaev/crudspringboot/service/UserService.java
