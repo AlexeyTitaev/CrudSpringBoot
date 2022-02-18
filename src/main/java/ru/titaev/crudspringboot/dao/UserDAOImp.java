@@ -24,7 +24,7 @@ public class UserDAOImp implements UserDAO {
     }
 
     @Override
-    public User readUser(Long id) {
+    public User readUser(int id) {
         return manager.find(User.class, id);
     }
 
@@ -34,7 +34,7 @@ public class UserDAOImp implements UserDAO {
     }
 
     @Override
-    public void deleteUser(Long id) {
+    public void deleteUser(int id) {
         manager.remove(readUser(id));
     }
 }

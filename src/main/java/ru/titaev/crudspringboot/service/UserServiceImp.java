@@ -30,7 +30,7 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    public User readUser(Long id) {
+    public User readUser(int id) {
         return userDAO.readUser(id);
     }
 
@@ -40,7 +40,7 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    public void deleteUser(Long id) {
+    public void deleteUser(int id) {
         userDAO.deleteUser(id);
     }
 }
